@@ -2,7 +2,6 @@ import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { Pagination } from "react-bootstrap";
 import ReactPaginate from "react-paginate";
 const Home = () => {
     const [all, allupdate] = useState([]);
@@ -20,7 +19,7 @@ const Home = () => {
     return (<div className="homeCard">
         <h1 className="center">LIst of Albums</h1>
         {all.map((e) => {
-            return <div className="card" id="home" >
+            return <div key={e.id} className="card" id="home" >
                 <div className="card-body">
                     <h5 className="card-title">Album Title : {e.company.name}</h5>
                     <p className="card-text">UserName: {e.name}</p>
