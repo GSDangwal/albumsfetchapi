@@ -12,7 +12,7 @@ function ShowData({ e, keyprop }) {
                 <img src={e.thumbnailUrl} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Title: {e.title}</h5>
-                    <p className="card-text"> id. {e.id}</p>
+                    <p className="card-text"> {e.id}</p>
                 </div>
             </div>
         </div>

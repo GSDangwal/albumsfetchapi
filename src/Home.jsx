@@ -22,7 +22,7 @@ const Home = () => {
         {all.map((e) => {
             return <div className="card" id="home" >
                 <div className="card-body">
-                    <h5 className="card-title">Album Title : Special title treatment</h5>
+                    <h5 className="card-title">Album Title : {e.company.name}</h5>
                     <p className="card-text">UserName: {e.name}</p>
                     <Link to={`/data/${e.id}/${e.name}`} className="btn btn-primary">View More</Link>
                 </div>
