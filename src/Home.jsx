@@ -6,13 +6,13 @@ import ReactPaginate from "react-paginate";
 const Home = () => {
     const [all, allupdate] = useState([]);
     useEffect(() => {
-        fetch("http://jsonplaceholder.typicode.com/users?_page=1&_limit=4")
+        fetch("https://jsonplaceholder.typicode.com/users?_page=1&_limit=4")
             .then(Response => Response.json())
             .then(data => allupdate(data));
     }, []);
     const handlClcick = (click) => {
         let item = click.selected + 1;
-        fetch(`http://jsonplaceholder.typicode.com/users?_page=${item}&_limit=4`)
+        fetch(`https://jsonplaceholder.typicode.com/users?_page=${item}&_limit=4`)
             .then(res => res.json())
             .then(data => allupdate(data));
     }
