@@ -69,3 +69,6 @@ font-family: 'Lobster Two', cursive;
     color: black;
     background-color: rgb(40, 189, 137);
   }
+  .background{
+    background: linear-gradient(to right, #00AAFF,#00ff6c);
+  }
