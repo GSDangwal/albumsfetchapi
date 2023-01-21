@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GSDangwal/albumsFetchApi/static/css/main.c9133919.css",
+    "main.js": "/GSDangwal/albumsFetchApi/static/js/main.1e0c0715.js",
+    "index.html": "/GSDangwal/albumsFetchApi/index.html",
+    "main.c9133919.css.map": "/GSDangwal/albumsFetchApi/static/css/main.c9133919.css.map",
+    "main.1e0c0715.js.map": "/GSDangwal/albumsFetchApi/static/js/main.1e0c0715.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9133919.css",
+    "static/js/main.1e0c0715.js"
+  ]
+}
